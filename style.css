@@ -1,0 +1,129 @@
+*{
+  font-family:'poppins',sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior:smooth;
+}
+header{
+  background-color: antiquewhite;
+  width: 100%;
+  position:fixed ;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+
+  }
+.logo{
+  text-decoration: none;
+  color: cornflowerblue;
+  text-transform:uppercase ;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.navigation a{ 
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+  color:  blueviolet;
+}
+section{
+  padding: 100px 200px
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(images/Nader.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main h2{
+  color:  aliceblue;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span{
+  display: inligne-block;
+  margin-top: 10px;
+  color:  chartreuse;
+  font-size: 2.0em;
+  font-weight: 600;
+}
+.main h3{
+  color:  aliceblue;
+  font-size: 2.0em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-ptn{
+  color:  aliceblue;
+  background-color:  mediumblue;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.main-ptn:hover{
+  background-color:  blue;
+  transform: scale(1.1);
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color:  chartreuse;
+  font-size: 2.0em;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 30px rgba(2 2 2 /20%);
+  background-color:  mediumblue;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  color:  cadetblue;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: 800;
+  margin-right: 30px;
+}
+.card{
+  background-color:   aliceblue;
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+  margin: 30px;
+ padding: 25px;
+border-radius: 25px;  
+  transition: 0.5s ease;
+}
+.card:hover{
+  background-color:  beige;
+  transform: scale(1.1);
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background-color:  beige;
+  color: black;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+
+
